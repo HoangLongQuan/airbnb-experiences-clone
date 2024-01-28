@@ -1,0 +1,51 @@
+.card{
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    padding-left: 30px;
+    width: 175px;
+    font-size: 12px;
+    position: relative;
+}
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 37px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    width: 60px;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.card-title{
+    width: max-content;
+}
+
+.star{
+    width: 14px;
+    height: 14px;
+}
+
+.gray{
+    color: #918E98;
+}
+
+.bold{
+    font-weight: bold;
+}
